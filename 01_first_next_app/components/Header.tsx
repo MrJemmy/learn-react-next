@@ -12,6 +12,9 @@ export default function Header() {
                 <Link href={"/"}>Home</Link>
               </li>
               <li>
+                <Link href={"/image"}>Image</Link>
+              </li>
+              <li>
                 <Link href={"/admin"}>Admin</Link>
               </li>
             </ul>
