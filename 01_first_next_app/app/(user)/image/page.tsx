@@ -20,6 +20,14 @@ export default function ImageComponent() {
 
         <div className="part1 m-2.5 h-[200px] w-[200px]">
           {/* it render images resolution based on need but we can mannage that using quality attribute and default is 75*/}
+          {/* 
+          setup in next.config.js
+          module.exports = {
+            images: {
+              qualities: [25, 50, 75, 100],
+            },
+          }
+          */}
           <Image
             src="/video.jpg"
             alt="video"
@@ -33,13 +41,7 @@ export default function ImageComponent() {
         <div className="part1 m-2.5 h-[200px] w-[200px] relative">
           {/* when we use fill do not need to use height and width but parent need's to use relative */}
           {/* objectFit attribute only works with fill */}
-          <Image
-            src="/video.jpg"
-            alt="video"
-            fill={true}
-            objectFit="cover"
-            priority={false}
-          />
+          <Image src="/video.jpg" alt="video" fill={true} objectFit="cover" />
         </div>
 
         <div className="part1 m-2.5 h-[200px] w-[200px] relative">
@@ -51,6 +53,10 @@ export default function ImageComponent() {
             objectFit="cover"
             priority={false}
           />
+        </div>
+
+        <div className="part1 m-2.5 h-[200px] w-[200px] relative">
+          {/* loader: not done */}
         </div>
       </div>
     </div>
