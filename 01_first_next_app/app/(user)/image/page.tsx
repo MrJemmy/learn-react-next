@@ -1,8 +1,11 @@
 import Image from "next/image";
-import { lazy } from "react";
 import videoImage from "@/public/video.jpg";
 
 // public folder images can be accessed directly using slash(/) prefix
+export const metadata = {
+  title: "Image Page",
+  description: "This is the image page",
+};
 
 export default function ImageComponent() {
   return (
