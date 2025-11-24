@@ -12,6 +12,10 @@ Ex: cyrillic - includes characters used in Russian, Bulgarian and other Cyrillic
 variable: it's used to define a CSS variable that can be used to reference the font in your styles.
 
 weight: it's specifies the font weights to include. Font weights determine the thickness of the characters.
+
+style: "normal", what is this?
+display: "swap", what is this?
+
 */
 
 /*
