@@ -17,9 +17,6 @@ export default function Header() {
               <li>
                 <Link href={"/font"}>Font</Link>
               </li>
-              <li>
-                <Link href={"/admin"}>Admin</Link>
-              </li>
             </ul>
           </nav>
         </div>

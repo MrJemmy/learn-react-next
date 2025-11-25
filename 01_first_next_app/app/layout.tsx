@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono, Zalando_Sans_Expanded } from "next/font/google";
 import "./globals.css";
 
-import Header from "@/components/Header";
+
 
 /*
 subsets: it's specifies which character subsets to include in the font. there are so many
@@ -40,8 +40,16 @@ const zalandoSansExpanded = Zalando_Sans_Expanded({
 });
 
 export const metadata: Metadata = {
-  title: "Next",
+  title: {
+    default: "NEXT",
+    template: "%s | NEXT",
+  },
   description: "mastering next.js",
+  authors: [
+    { name: "Jaimin Patel" },
+    { name: "mrjemmy", url: "https://mrjemmy.com" },
+  ],
+  keywords: ["next.js", "react", "user"],
 };
 
 export default function RootLayout({
@@ -54,7 +62,6 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${zalandoSansExpanded.variable} antialiased`}
       >
-        <Header />
         {children}
       </body>
     </html>

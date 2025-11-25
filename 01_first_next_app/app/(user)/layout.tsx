@@ -1,3 +1,5 @@
+import Header from "@/components/Header";
+
 export const metadata = {
   title: "User Page",
   description: "This is the user page",
@@ -13,5 +15,8 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return <>{children}</>;
+  return <>
+    <Header />
+    {children}
+  </>;
 }
