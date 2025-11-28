@@ -50,6 +50,9 @@ export const metadata: Metadata = {
     { name: "mrjemmy", url: "https://mrjemmy.com" },
   ],
   keywords: ["next.js", "react", "user"],
+  icons: {
+    // icon: "/foolFavicon.svg",
+  },
 };
 
 export default function RootLayout({
