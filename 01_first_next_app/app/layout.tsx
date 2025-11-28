@@ -51,7 +51,30 @@ export const metadata: Metadata = {
   ],
   keywords: ["next.js", "react", "user"],
   icons: {
-    // icon: "/foolFavicon.svg",
+    // icon: "/foolFavicon.svg", // default icon will be used if favicon.ico is present in app folder
+  },
+  metadataBase: new URL("https://www.ourdomain.com"),
+  openGraph: { // when we share our website link on social media this open graph data
+    title: "NEXT",
+    description: "mastering next.js",
+    url: "https://www.ourdomain.com",
+    siteName: "NEXT",
+    images: [
+      {
+        url: "/og-image.png",  // we have matadataBase so we can use relative path
+        width: 800,
+        height: 600,
+        alt: "Og Image Alt",
+      },
+    ],
+    locale: "en-US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "NEXT",
+    description: "mastering next.js",
+    images: ["/og-image.png"], // we have matadataBase so we can use relative path
   },
 };
 
