@@ -12,7 +12,7 @@
   /* this is for creating classes for tailwinds */
   --font-geist-sans: var(--font-geist-sans);
   --font-geist-mono: var(--font-geist-mono);
-  --font-zalando-sans-exp: var(--font-zalando-sans-exp);
+  --font-zalando-sans-expanded: var(--font-zalando-sans-expanded);
 }
 
 @media (prefers-color-scheme: dark) {

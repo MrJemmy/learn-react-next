@@ -34,7 +34,7 @@ const geistMono = Geist_Mono({
 });
 
 const zalandoSansExpanded = Zalando_Sans_Expanded({
-  variable: "--font-zalando-sans-exp",
+  variable: "--font-zalando-sans-expanded",
   subsets: ["latin"],
   weight: ["200", "300", "400", "500", "600", "700", "800", "900"],
 });

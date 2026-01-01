@@ -4,6 +4,7 @@ const nextConfig: NextConfig = {
   /* config options here */
   images: {
     qualities: [50, 75, 100],
+    domains: ['fakestoreapi.com'],
   },
 };
 

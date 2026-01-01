@@ -1,8 +1,9 @@
 import Image from "next/image";
 import videoImage from "@/public/video.jpg";
+import { Metadata } from "next";
 
 // public folder images can be accessed directly using slash(/) prefix
-export const metadata = {
+export const metadata: Metadata = {
   title: "Image Page",
   description: "This is the image page",
 };

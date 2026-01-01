@@ -1,4 +1,6 @@
-export const metadata = {
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
   title: "Font Page",
   description: "This is the font page",
 };
@@ -28,26 +30,26 @@ export default function FontPage() {
       <h1 className="font-geist-sans font-black">geist-sans</h1>
 
       {/* <h1 className="font-zalando-sans-exp font-thin">font-zalando-sans-exp</h1> */}
-      <h1 className="font-zalando-sans-exp font-extralight">
+      <h1 className="font-zalando-sans-expanded font-extralight">
         font-zalando-sans-exp
       </h1>
-      <h1 className="font-zalando-sans-exp font-light">
+      <h1 className="font-zalando-sans-expanded font-light">
         font-zalando-sans-exp
       </h1>
-      <h1 className="font-zalando-sans-exp font-normal">
+      <h1 className="font-zalando-sans-expanded font-normal">
         font-zalando-sans-exp
       </h1>
-      <h1 className="font-zalando-sans-exp font-medium">
+      <h1 className="font-zalando-sans-expanded font-medium">
         font-zalando-sans-exp
       </h1>
-      <h1 className="font-zalando-sans-exp font-semibold">
+      <h1 className="font-zalando-sans-expanded font-semibold">
         font-zalando-sans-exp
       </h1>
-      <h1 className="font-zalando-sans-exp font-bold">font-zalando-sans-exp</h1>
-      <h1 className="font-zalando-sans-exp font-extrabold">
+      <h1 className="font-zalando-sans-expanded font-bold">font-zalando-sans-expanded</h1>
+      <h1 className="font-zalando-sans-expanded font-extrabold">
         font-zalando-sans-exp
       </h1>
-      <h1 className="font-zalando-sans-exp font-black">
+      <h1 className="font-zalando-sans-expanded font-black">
         font-zalando-sans-exp
       </h1>
     </div>

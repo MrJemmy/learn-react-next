@@ -1,4 +1,7 @@
+// server
 import Link from "next/link";
+import Image from "./header/nav/Image";
+import Font from "./header/nav/Font";
 
 export default function Header() {
   return (
@@ -12,10 +15,13 @@ export default function Header() {
                 <Link href={"/"}>Home</Link>
               </li>
               <li>
-                <Link href={"/image"}>Image</Link>
+                <Link href={"/image"}><Image/></Link> 
               </li>
               <li>
-                <Link href={"/font"}>Font</Link>
+                <Link href={"/font"}><Font/></Link>
+              </li>
+              <li>
+                <Link href={"/products"}>products</Link>
               </li>
             </ul>
           </nav>
